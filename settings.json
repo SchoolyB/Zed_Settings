@@ -1,0 +1,41 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  // AI assistants are cool but this shit gets annoying and is often wrong.
+  // "assistant": { 
+  //   "default_model": {
+  //     "provider": "anthropic",
+  //     "model": "claude-3-5-sonnet-20240620"
+  //   },
+  //   "version": "2"
+  // },
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "show_edit_predictions": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 20,
+  "buffer_font_size": 22.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Gruvbox Light Soft"
+  },
+  "ensure_final_newline_on_save": false,
+  "autosave": "on_focus_change",
+  "format_on_save": "off",
+  "ui_font_family": "PT Mono",
+  // "buffer_font_family":"PT Mono"  //pretty clean
+  // "buffer_font_family":"Apple Symbols"  //pretty clean
+// "buffer_font_family":"Trebuchet MS" //similiar to above but a bit larger and more bold
+"buffer_font_family":"Helvetica" // i mean its helvetica
+// "buffer_font_family":"Apple LiGothic" //clean, easy to read/ small, similarr to apple symbols
+// "buffer_font_family":"Shree Devanagari 714" // clean, sleek, modern
+}
