@@ -30,29 +30,24 @@
   "ensure_final_newline_on_save": false,
   "autosave": "on_focus_change",
   "format_on_save": "off",
-    "ui_font_family": "Helvetica",
+  "ui_font_family": "Helvetica",
   // "buffer_font_family":"PT Mono"  //pretty clean
   // "buffer_font_family":"Apple Symbols"  //pretty clean
-// "buffer_font_family":"Trebuchet MS" //similiar to above but a bit larger and more bold
-// "buffer_font_family":"Helvetica" // i mean its helvetica
-// "buffer_font_family":"Apple LiGothic" //clean, easy to read/ small, similarr to apple symbols
-// "buffer_font_family":"Shree Devanagari 714" // clean, sleek, modern
-"buffer_font_family":  "Rockwell",
+  // "buffer_font_family":"Trebuchet MS" //similiar to above but a bit larger and more bold
+  // "buffer_font_family":"Helvetica" // i mean its helvetica
+  // "buffer_font_family":"Apple LiGothic" //clean, easy to read/ small, similarr to apple symbols
+  // "buffer_font_family":"Shree Devanagari 714" // clean, sleek, modern
+  "buffer_font_family": "Rockwell",
 
-"chat_panel": {
-  "button":"never",
-},
-"terminal": {
-  "cursor_shape":"bar",
-  "font_family": "Zed Plex Mono",
-  "font_size": 18
-},
-"collaboration_panel": {
-  "button": false
-},
-
-}
-
-
-
+  "chat_panel": {
+    "button": "never"
+  },
+  "terminal": {
+    "cursor_shape": "bar",
+    "font_family": "Zed Plex Mono",
+    "font_size": 18
+  },
+  "collaboration_panel": {
+    "button": false
+  }
 }
