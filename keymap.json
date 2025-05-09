@@ -19,6 +19,7 @@
       "ctrl ctrl": "project_symbols::Toggle",
       "cmd-pagedown": "workspace::ActivatePaneLeft",
       "cmd-pageup": "workspace::ActivatePaneRight",
+      "cmd-g": "git::Blame",
     }
   },
   {
