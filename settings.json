@@ -32,7 +32,7 @@
   },
   "helix_mode": false,
   "disable_ai": true,
-  "icon_theme": "VSCode Great Icons Theme",
+  "icon_theme": "Material Icon Theme",
   "show_edit_predictions": false,
   "telemetry": {
     "diagnostics": false,
@@ -52,7 +52,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Frappé"
+    "dark": "Catppuccin Espresso (Blur) [Light]"
   },
 
   // Editor Text Settings:
