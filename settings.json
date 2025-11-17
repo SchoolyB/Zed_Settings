@@ -7,47 +7,67 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
-  // "assistant": {
-  //   "default_model": {
-  //     "provider": "anthropic",
-  //     "model": "claude-3-5-sonnet-20240620"
-  //   },
-  //   "version": "2"
-  // },
-  "icon_theme": "JetBrains New UI Icons (Dark)",
+  // General Editor Settings:
+  "minimap": {
+    "max_width_columns": 100,
+    "thumb": "hover",
+    "show": "auto",
+    "display_in": "active_editor"
+  },
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    },
+    "branch_picker": {
+      "show_author_name": true
+    }
+  },
+  "title_bar": { "show_branch_icon": true },
+  "auto_indent": true,
+  "unnecessary_code_fade": 0.8,
+  "autoscroll_on_clicks": true,
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "helix_mode": false,
+  "disable_ai": true,
+  "icon_theme": "VSCode Great Icons Theme",
   "show_edit_predictions": false,
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
-  "ui_font_size": 25,
-  "buffer_font_size": 22.0,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Gruvbox Light Soft"
-  },
+  "notification_panel": { "button": false },
   "ensure_final_newline_on_save": false,
   "autosave": "on_focus_change",
   "format_on_save": "off",
-  "ui_font_family": "Helvetica",
-  // "buffer_font_family":"PT Mono"  //pretty clean
-  // "buffer_font_family":"Apple Symbols"  //pretty clean
-  // "buffer_font_family":"Trebuchet MS" //similiar to above but a bit larger and more bold
-  // "buffer_font_family":"Helvetica" // i mean its helvetica
-  // "buffer_font_family":"Apple LiGothic" //clean, easy to read/ small, similarr to apple symbols
-  // "buffer_font_family":"Shree Devanagari 714" // clean, sleek, modern
-  "buffer_font_family": "Rockwell",
-
-  "chat_panel": {
-    "button": "never"
-  },
-  "terminal": {
-    "cursor_shape": "bar",
-    "font_family": "Zed Plex Mono",
-    "font_size": 18
-  },
   "collaboration_panel": {
     "button": false
+  },
+
+  // UI Settings:
+  "ui_font_size": 25,
+  "ui_font_family": "Helvetica",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Frappé"
+  },
+
+  // Editor Text Settings:
+  "buffer_font_size": 20.0,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_weight": 500,
+  "buffer_line_height": "standard",
+
+  // Debugger Settings:
+  "debugger": { "button": false },
+
+  // Terminal Settings
+  "terminal": {
+    "cursor_shape": "bar",
+    "font_family": ".ZedMono",
+    "font_size": 18
   }
 }
